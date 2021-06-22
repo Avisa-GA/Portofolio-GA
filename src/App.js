@@ -14,6 +14,7 @@ return (
         <div class="row">
              {/* ********* SectionOne ***************** */}
              <div class="col s4">
+                 
                 <Subjects title="Dashboard" />
                 
                 <Subjects title="Widget"/>
@@ -39,7 +40,7 @@ return (
 
 
             {/* *********** Section Two ******************* */}
-            <div class="col s4">
+            <div class="col s6">
             <WebsiteVisitors />
             </div>
         </div>
