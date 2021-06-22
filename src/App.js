@@ -12,7 +12,7 @@ return (
     <div style={{marginRight: '30%'}} className="container">
         <div class="row">
             {/* ********* SectionOne ***************** */}
-            <div class="col s4">
+            <div style={{marginTop: '20%'}} class="col s4">
 
                 <Subjects title="Dashboard" />
 
