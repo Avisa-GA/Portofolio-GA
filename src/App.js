@@ -28,16 +28,16 @@ return (
 
             </div>
             {/* ********* SectionOne ***************** */}
-            <div style={{width: '500px'}} class="col s4">
-                <div style={{marginRight: '5%'}} class="col s3">
+            <div style={{width: '500px'}} class="col s6">
+                <div style={{marginRight: '0%'}} class="col s3">
                     <Subjects title="Reviews" number='1,281' />
                 </div>
                 {/* <div class="divider"></div> */}
-                <div style={{marginRight: '5%'}} class="col s3">
+                <div style={{marginRight: '10%'}} class="col s3">
                     <Subjects title="Average Rating" number='4.6' />
                 </div>
                 {/* <div class="divider"></div> */}
-                <div class="col s3">
+                <div style={{width: '100px'}} class="col s3">
                     <SentimentAnal />
                 </div>
                 {/* <div class="divider"></div> */}
