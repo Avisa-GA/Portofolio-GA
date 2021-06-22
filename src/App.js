@@ -10,8 +10,23 @@ function App() {
 return (
 <div>
     <NavBar />
-    <div className="container">
+    <div style={{marginRight: '30%'}} className="container">
         <div class="row">
+             {/* ********* SectionOne ***************** */}
+             <div class="col s4">
+                <Subjects title="Dashboard" />
+                
+                <Subjects title="Widget"/>
+
+                <Subjects title="Reviews"/>
+
+                <Subjects title="Customers"/>
+
+                <Subjects title="Online Analysis"/>
+
+                <Subjects title="Settings"/>
+                
+            </div>
             {/* ********* SectionOne ***************** */}
             <div class="col s4">
                 <Subjects title="Reviews" number='1,281' />
@@ -24,7 +39,7 @@ return (
 
 
             {/* *********** Section Two ******************* */}
-            <div style={{marginLeft: '20%'}} class="col s4">
+            <div class="col s4">
             <WebsiteVisitors />
             </div>
         </div>
